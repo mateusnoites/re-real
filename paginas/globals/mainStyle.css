@@ -12,6 +12,10 @@ body {
     color: white;
 }
 
+.paginaatual {
+    color: red;
+}
+
 a {
     color: #fff;
     text-decoration: none;

@@ -11,15 +11,15 @@
 <body onload="carregar()">
     <header>
         <nav>
-            <a class="logo" href="../index/index.html">re<span class="hifen">•</span>real</a>
+            <h1><a class="logo" href="../index/index.html">re<span class="hifen">•</span>real</a></h1>
             <ul class="nav-lista">
                 <li><a href="../filmes/filmes.html">filmes</a></li>
                 <li> <span style="color: #f00;">┃</span></li>
-                <li><a href="#">games</a></li>
+                <li><a href="../games/games.html"">games</a></li>
                 <li> <span style="color: #f00;">┃</span></li>
-                <li><a href="#">músicas</a></li>
+                <li><a href="../musicas/musicas.html">músicas</a></li>
                 <li> <span style="color: #f00;">┃</span></li>
-                <li><a href="#">notícias</a></li>
+                <li><a href="../noticias/noticias.html">notícias</a></li>
             </ul>
 
             <a href="#" class="sino" onclick="notificacoes()"></a>
@@ -31,9 +31,8 @@
             <form>
                 <input type="text" class="caixa" placeholder="pesquisar...">
 
-                <button type="submit">
-                    <img src="../../imagens/lupa.png" class="lupa" alt="lupa">
-                </button>
+
+                <input type="image" src="../../imagens/lupa.png" class="lupa" alt="lupa">
             </form>
         </div>
     </header>
@@ -41,18 +40,18 @@
     <main>
         <section>
             <div class="resenha">
-                tópico: <img src="" alt="stlogo"> <br>
+                <p>tópico: <img src="" alt="stlogo"></p>
 
                 <div class="comentador">
                     <a href="#">lucaslopes</a>
     
                     <ul class="stars">
-                        <li class="full"></li>
-                        <li class="full"></li>
-                        <li class="full"></li>
-                        <li class="full"></li>
-                        <li class="full"></li>
-                    </ul>                
+                        <li><img src="../../imagens/full-star.png" alt=""></li>
+                        <li><img src="../../imagens/full-star.png" alt=""></li>
+                        <li><img src="../../imagens/full-star.png" alt=""></li>
+                        <li><img src="../../imagens/full-star.png" alt=""></li>
+                        <li><img src="../../imagens/full-star.png" alt=""></li>
+                    </ul>
                 </div>
             </div>
 
@@ -63,7 +62,5 @@
 
         </section>
     </main>
-
-    <script src="../globals/main.js"></script>
 </body>
 </html>

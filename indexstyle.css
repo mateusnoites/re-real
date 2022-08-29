@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@700&display=swap');
+
+* {
+    margin: 10px;
+    padding: 0;
+}
+
+body {
+    font-family: 'Kanit', sans-serif;
+    background-color: rgb(10, 10, 10);
+    color: white;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+.logo {
+    font-size: 28pt;
+    font-family: 'Jura', sans-serif;
+    text-transform: uppercase;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-lista {
+    list-style: none;
+    display: flex;
+}
+
+.nav-lista li {
+    margin-right: 32px;
+}
+
+header {
+    font-size: larger;
+    user-select: none;
+}
+
+.hifen {
+    color: red;
+}
+
+.sino {
+    border-color: aqua;
+    border-radius: 15px;
+    background-image: url(./sino.png);
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: invert();
+    width: 45px;
+    height: 45px;
+}
+
+.sino:hover {
+    cursor: pointer;
+}
+
+
+
+
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+.caixa {
+    font-family: 'Kanit', sans-serif;
+    outline: none;
+    padding: 2px;
+    padding-left: 10px;
+    border: none;
+    color: white;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+    background-image: url('./lupa.png');
+    background-size: auto;
+    font-size: larger;
+    width: 10%;
+}
+
+.caixa::placeholder {
+    color: rgb(219, 0, 0);
+}
+
+button {
+    outline: none;
+    background-color: transparent;
+}
+
+.lupa {
+    transform: scaleX(-1);
+
+    width: 40px;
+    height: 40px;
+}
+
+button:hover {
+    outline: none;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.foto {
+    width: 40px;
+    height: 40px;
+}
+
+.usuariosessao {
+    display: flex;
+    justify-content: left;
+}
+
+hr {
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 83%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.stars {
+    display: flex;
+    justify-content: safe;
+    list-style: none;
+}
+
+.full {
+    background-image: url('/full-star.png');
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+}
+
+.empty {
+    background-image: url('/empty-star.png');
+}
+
+.comentador {
+    display: flex;
+    font-size: 16pt;
+}
+
+.resenha {
+    display: flexbox;
+    justify-content: center;
+    
+}

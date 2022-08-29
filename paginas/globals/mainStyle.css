@@ -21,6 +21,8 @@ a:hover {
     opacity: 0.8;
 }
 
+
+
 .logo {
     font-size: 28pt;
     font-family: 'Jura', sans-serif;
@@ -54,7 +56,7 @@ header {
 .sino {
     border-color: aqua;
     border-radius: 15px;
-    background-image: url(./sino.png);
+    background-image: url(../../imagens/sino.png);
     background-size: 75%;
     background-repeat: no-repeat;
     background-position: center;
@@ -83,16 +85,15 @@ form {
     padding-left: 10px;
     border: none;
     color: white;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid red;
     background-color: transparent;
-    background-image: url('./lupa.png');
     background-size: auto;
     font-size: larger;
     width: 10%;
 }
 
 .caixa::placeholder {
-    color: rgb(219, 0, 0);
+    color: whitesmoke;
 }
 
 button {
@@ -102,7 +103,7 @@ button {
 
 .lupa {
     transform: scaleX(-1);
-
+    
     width: 40px;
     height: 40px;
 }
@@ -113,48 +114,10 @@ button:hover {
     opacity: 0.8;
 }
 
-.foto {
-    width: 40px;
-    height: 40px;
-}
-
-.usuariosessao {
-    display: flex;
-    justify-content: left;
-}
-
 hr {
-    border: 2px solid white;
+    border: 2px solid red;
     border-radius: 5px;
     width: 83%;
     margin: auto;
     margin-top: 40px;
-}
-
-.stars {
-    display: flex;
-    justify-content: safe;
-    list-style: none;
-}
-
-.full {
-    background-image: url('/full-star.png');
-    background-size: cover;
-    width: 20px;
-    height: 20px;
-}
-
-.empty {
-    background-image: url('/empty-star.png');
-}
-
-.comentador {
-    display: flex;
-    font-size: 16pt;
-}
-
-.resenha {
-    display: flexbox;
-    justify-content: center;
-    
 }

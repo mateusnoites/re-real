@@ -4,24 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./indexstyle.css">
+    <link rel="stylesheet" href="../globals/mainStyle.css">
+    <link rel="stylesheet" href="../index/filmes.css">
     <title>Re-Real</title>
 </head>
 <body>
     <header>
         <nav>
-            <a class="logo" href="/">re<span class="hifen">•</span>real</a>
+            <a class="logo" href="../index/index.html">re<span class="hifen">•</span>real</a>
             <ul class="nav-lista">
-                <li><a href="/">filmes</a></li>
+                <li><a href="../filmes/filmes.html" class="filmes">filmes</a></li>
                 <li> <span style="color: #f00;">┃</span></li>
-                <li><a href="/">games</a></li>
+                <li><a href="#" class="games">games</a></li>
                 <li> <span style="color: #f00;">┃</span></li>
-                <li><a href="/">músicas</a></li>
+                <li><a href="#" class="musicas">músicas</a></li>
                 <li> <span style="color: #f00;">┃</span></li>
-                <li><a href="/">notícias</a></li>
+                <li><a href="#" class="noticias">notícias</a></li>
             </ul>
 
-            <a href="/" class="sino" onclick="notificacoes()"></a>
+            <a href="#" class="sino" onclick="notificacoes()"></a>
         </nav>
 
         <hr>
@@ -31,7 +32,7 @@
                 <input type="text" class="caixa" placeholder="pesquisar...">
 
                 <button type="submit">
-                    <img src="./lupa.png" class="lupa" alt="lupa">
+                    <img src="../../imagens/lupa.png" class="lupa" alt="lupa">
                 </button>
             </form>
         </div>
@@ -43,7 +44,7 @@
                 tópico: <img src="" alt="stlogo"> <br>
 
                 <div class="comentador">
-                    <a href="/">lucaslopes</a>
+                    <a href="#">lucaslopes</a>
     
                     <ul class="stars">
                         <li class="full"></li>
@@ -63,10 +64,6 @@
         </section>
     </main>
 
-    <script>
-        function notificacoes() {
-            alert("Nenhuma notificação");
-        }
-    </script>
+    <script src="../globals/main.js"></script>
 </body>
 </html>

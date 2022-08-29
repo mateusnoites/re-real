@@ -1,0 +1,38 @@
+.foto {
+    width: 40px;
+    height: 40px;
+}
+
+.usuariosessao {
+    display: flex;
+    justify-content: left;
+}
+
+
+.stars {
+    display: flex;
+    justify-content: safe;
+    list-style: none;
+}
+
+.full {
+    background-image: url('../../imagens/full-star.png');
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+}
+
+.empty {
+    background-image: url('../../imagens/empty-star.png');
+}
+
+.comentador {
+    display: flex;
+    font-size: 16pt;
+}
+
+.resenha {
+    display: flexbox;
+    justify-content: center;
+    
+}

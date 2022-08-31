@@ -13,16 +13,57 @@ body {
 }
 
 .paginaatual {
+    background-color: white;
+    padding: 7px 10px;
+    border-radius: 10px;
     color: red;
 }
 
+.linknav {
+    animation-duration: 0.5s;
+    animation-name: hover-out;
+    color: white;
+    text-decoration: none;
+}
+
+.linknav:hover {
+    animation-duration: 0.2s;
+    animation-name: hover;
+    color: red;
+    opacity: 0.8;
+}
+
 a {
-    color: #fff;
+    color: white;
     text-decoration: none;
 }
 
 a:hover {
-    opacity: 0.8;
+    opacity: 0.7;
+}
+
+@keyframes hover {
+    from {
+        color: white;
+        opacity: 1;
+    }
+
+    to {
+        color: red;
+        opacity: 0.8;
+    }
+}
+
+@keyframes hover-out {
+    from {
+        color: red;
+        opacity: 0.8;
+    }
+
+    to {
+        color: white;
+        opacity: 1;
+    }
 }
 
 

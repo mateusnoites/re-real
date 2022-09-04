@@ -39,6 +39,7 @@ a {
 }
 
 a:hover {
+    cursor: pointer;
     opacity: 0.7;
 }
 
@@ -165,4 +166,44 @@ hr {
     width: 83%;
     margin: auto;
     margin-top: 40px;
+}
+
+.postagem {
+    width: 50%;
+    margin: auto;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+}
+
+.foto {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+
+    background-color: #3333
+}
+
+.cabecalho .nome {
+    font-size: 16px;
+    margin-left: 10px
+}
+
+.categoria {
+    color: red;
+}
+
+.nomemidia {
+    display: flex;
+    align-items: center;
+}
+
+.nomemidia h3 {
+    color: red;
 }
